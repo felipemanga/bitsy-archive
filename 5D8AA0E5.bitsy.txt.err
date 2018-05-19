@@ -54,7 +54,7 @@ In file included from ../main.cpp:18:0:
 ../Node.hpp:22:34: warning: array subscript is above array bounds [-Warray-bounds]
 ../Node.hpp:22:34: warning: array subscript is above array bounds [-Warray-bounds]
 /home/manga/Projects/Pokitto/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: HelloWorld.elf section `.text' will not fit in region `MFlash256'
-/home/manga/Projects/Pokitto/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: region `MFlash256' overflowed by 51004 bytes
+/home/manga/Projects/Pokitto/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: region `MFlash256' overflowed by 60792 bytes
 collect2: error: ld returned 1 exit status
 make[1]: *** [HelloWorld.elf] Error 1
 make: *** [all] Error 2
