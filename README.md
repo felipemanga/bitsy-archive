@@ -1,3 +1,12 @@
+# This is a fork
+
+This contains all the bitsy games from Ragzouken's [bitsy-archive](https://github.com/Ragzouken/bitsy-archive), but adapted for the [Pokitto](https://www.pokitto.com).
+
+You can download the games one-by-one, or all of them bundled together [here](https://github.com/felipemanga/bitsy-archive/releases).
+
+Tip: Don't put more than 50 bins on the SD card at a time.
+Tip 2: You can zoom in/out using the C button.
+
 # bitsy-archive
 an archive (with permission) of bitsy gamedata
 
