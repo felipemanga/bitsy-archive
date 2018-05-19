@@ -26,7 +26,7 @@ In file included from ../PokittoLib/POKITTO_CORE/PokittoGlobs.h:48:0,
                  from ../PokittoLib/POKITTO_CORE/PokittoCore.h:57,
                  from ../PokittoLib/Pokitto.h:41,
                  from ../main.cpp:2:
-../PokittoLib/POKITTO_HW/HWLCD.h:146:13: warning: 'void Pokitto::setup_gpio()' defined but not used [-Wunused-function]
+../PokittoLib/POKITTO_HW/HWLCD.h:153:13: warning: 'void Pokitto::setup_gpio()' defined but not used [-Wunused-function]
  static void setup_gpio()
              ^~~~~~~~~~
 make[1]: *** [main.o] Error 1

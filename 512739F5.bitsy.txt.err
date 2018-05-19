@@ -15,7 +15,7 @@ In file included from ../PokittoLib/POKITTO_CORE/PokittoGlobs.h:48:0,
                  from ../PokittoLib/POKITTO_CORE/PokittoCore.h:57,
                  from ../PokittoLib/Pokitto.h:41,
                  from ../main.cpp:2:
-../PokittoLib/POKITTO_HW/HWLCD.h:146:13: warning: 'void Pokitto::setup_gpio()' defined but not used [-Wunused-function]
+../PokittoLib/POKITTO_HW/HWLCD.h:153:13: warning: 'void Pokitto::setup_gpio()' defined but not used [-Wunused-function]
  static void setup_gpio()
              ^~~~~~~~~~
 ../main.cpp: In function 'void movePlayer()':
@@ -23,7 +23,7 @@ In file included from ../PokittoLib/POKITTO_CORE/PokittoGlobs.h:48:0,
     print( endings[exit.tx-1] );
     ~~~~~^~~~~~~~~~~~~~~~~~~~~~
 /home/manga/Projects/Pokitto/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: HelloWorld.elf section `.text' will not fit in region `MFlash256'
-/home/manga/Projects/Pokitto/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: region `MFlash256' overflowed by 295824 bytes
+/home/manga/Projects/Pokitto/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/bin/ld: region `MFlash256' overflowed by 290068 bytes
 collect2: error: ld returned 1 exit status
 make[1]: *** [HelloWorld.elf] Error 1
 make: *** [all] Error 2
