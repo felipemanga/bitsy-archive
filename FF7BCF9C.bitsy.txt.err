@@ -1,0 +1,30 @@
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from ../main.cpp:22:0:
+../bitsy.h:348:26: error: conflicting declaration 'const uint16_t* palettes []'
+ const uint16_t *palettes[] = {
+                          ^
+In file included from ../main.cpp:16:0:
+../bitsyTypes.h:126:23: note: previous declaration as 'const uint16_t palettes [][3]'
+ const extern uint16_t palettes[][3];
+                       ^~~~~~~~
+../main.cpp: In function 'void stateMap()':
+../main.cpp:235:25: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+     for( uint32_t i=0; i<itemCount; ++i ){
+                        ~^~~~~~~~~~
+In file included from ../PokittoLib/Pokitto.h:50:0,
+                 from ../main.cpp:2:
+../PokittoLib/POKITTO_HW/PokittoEEPROM.h: At global scope:
+../PokittoLib/POKITTO_HW/PokittoEEPROM.h:144:20: warning: 'EEPROM' defined but not used [-Wunused-variable]
+ static EEPROMClass EEPROM;
+                    ^~~~~~
+In file included from ../PokittoLib/POKITTO_CORE/PokittoGlobs.h:48:0,
+                 from ../PokittoLib/POKITTO_CORE/PokittoDisplay.h:73,
+                 from ../PokittoLib/POKITTO_CORE/PokittoCore.h:57,
+                 from ../PokittoLib/Pokitto.h:41,
+                 from ../main.cpp:2:
+../PokittoLib/POKITTO_HW/HWLCD.h:146:13: warning: 'void Pokitto::setup_gpio()' defined but not used [-Wunused-function]
+ static void setup_gpio()
+             ^~~~~~~~~~
+make[1]: *** [main.o] Error 1
+make: *** [all] Error 2

@@ -1,0 +1,24 @@
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cc1plus: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from ../main.cpp:22:0:
+../bitsy.h:563:16: error: scalar object 'palette0' requires one element in initializer
+ const uint16_t palette0={0x3166, 0x9b34, 0x8fde};
+                ^~~~~~~~
+../bitsy.h:564:16: error: scalar object 'palette1' requires one element in initializer
+ const uint16_t palette1={0x0, 0xeaef, 0x37f0};
+                ^~~~~~~~
+In file included from ../PokittoLib/Pokitto.h:50:0,
+                 from ../main.cpp:2:
+../PokittoLib/POKITTO_HW/PokittoEEPROM.h:144:20: warning: 'EEPROM' defined but not used [-Wunused-variable]
+ static EEPROMClass EEPROM;
+                    ^~~~~~
+In file included from ../PokittoLib/POKITTO_CORE/PokittoGlobs.h:48:0,
+                 from ../PokittoLib/POKITTO_CORE/PokittoDisplay.h:73,
+                 from ../PokittoLib/POKITTO_CORE/PokittoCore.h:57,
+                 from ../PokittoLib/Pokitto.h:41,
+                 from ../main.cpp:2:
+../PokittoLib/POKITTO_HW/HWLCD.h:146:13: warning: 'void Pokitto::setup_gpio()' defined but not used [-Wunused-function]
+ static void setup_gpio()
+             ^~~~~~~~~~
+make[1]: *** [main.o] Error 1
+make: *** [all] Error 2

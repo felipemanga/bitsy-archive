@@ -1,0 +1,15 @@
+/home/manga/Projects/BitsyCPP/index.js:583
+	throw ex;
+	^
+
+TypeError: Cannot read property 'room' of undefined
+    at parseWorld (eval at <anonymous> (/home/manga/Projects/BitsyCPP/index.js:11:1), <anonymous>:5515:14)
+    at load_game (eval at <anonymous> (/home/manga/Projects/BitsyCPP/index.js:11:1), <anonymous>:4577:2)
+    at translate (/home/manga/Projects/BitsyCPP/index.js:35:5)
+    at doit (/home/manga/Projects/BitsyCPP/index.js:572:8)
+    at Object.<anonymous> (/home/manga/Projects/BitsyCPP/index.js:623:1)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
